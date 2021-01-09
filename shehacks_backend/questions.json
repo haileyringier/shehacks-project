@@ -1,0 +1,167 @@
+[
+    {
+        "question": "In 2018, what was the percentage of women in the tech industry?",
+        "additionInfo": "One of the reasons why there is a lower percentage of women working in the tech industry compared to other industries is that girls are less likely to study STEM subjects compared to boys.",
+        "optionA": "15%", 
+        "optionB": "48%",       
+        "optionC": "28%",
+        "optionD": "35%",
+        "answer": "optionC",
+        "points": 1
+    },
+
+    {
+        "question": "Girls are less likely to study STEM subjects than boys. In 2018, what percentage of girls were enrolled in engineering courses while in college?",
+        "additionInfo": "The gender disparity that starts in high school and university becomes even more pronounced when it comes to making career choices.",
+        "optionA": "2%", 
+        "optionB": "12%",       
+        "optionC": "34%",
+        "optionD": "6%",
+        "answer": "optionA",
+        "points": 2
+    },
+
+    {
+        "question": "What is the average salary for software engineers in canada?",
+        "additionInfo": "",
+        "optionA": "$52k", 
+        "optionB": "$68k",       
+        "optionC": "$75k",
+        "optionD": "$38k",
+        "answer": "optionC",
+        "points": 2
+    },
+
+    {
+        "question": "What is true in regards to being carbon neutral?",
+        "additionInfo": "",
+        "optionA": "Carbon neutral means achieving net zero carbon dioxide emissions by balancing carbon dioxide emissions with removal or simply eliminating carbon dioxide emissions altogether", 
+        "optionB": "Attempting to be carbon neutral is really expensive.",       
+        "optionC": "A company’s carbon footprint can be forgiven by donating large amounts to environmental groups",
+        "optionD": "Planting trees in the tropics is more cost effective and is more effective than a company going carbon neutral.",
+        "answer": "optionA",
+        "points": 2
+    },
+
+    {
+        "question": "Which one of these skincare and makeup companies is carbon neutral?",
+        "additionInfo": "",
+        "optionA": "Fenty Beauty", 
+        "optionB": "Versed",       
+        "optionC": "Urban Decay",
+        "optionD": "Neutrogena",
+        "answer": "optionB",
+        "points": 2
+    },
+
+    {
+        "question": "What are ways to encourage young women to get involved in the tech industry?",
+        "additionInfo": "",
+        "optionA": "Encourage them to attend fun events likeSheHacks", 
+        "optionB": "Provide mentorship",       
+        "optionC": "Provide scholarships and grants to further their education",
+        "optionD": "All of the above",
+        "answer": "optionD",
+        "points": 2
+    },
+
+    {
+        "question": "What are the benefits to opening a savings account?",
+        "additionInfo": "",
+        "optionA": "Deposited funds accrue interest over time", 
+        "optionB": "A secure place to store your money",       
+        "optionC": "Banks place limits on the number of withdrawals allowed, which encourages saving over spending",
+        "optionD": "All of the above",
+        "answer": "optionD",
+        "points": 2
+    },
+
+    {
+        "question": "What is the importance of creating a budget?",
+        "additionInfo": "",
+        "optionA": "By creating a spending plan it will ensure that you have enough money for important things like bills and food", 
+        "optionB": "For other people to think you know what to do with money",       
+        "optionC": "It is not important, spend your money on what you want",
+        "optionD": "Creating a budget takes a lot of time is not worth it",
+        "answer": "optionA",
+        "points": 2
+    },
+
+    {
+        "question": " Which American software company designed the highly popular and innovative personal finance app Mint?",
+        "additionInfo": "Finance apps are one of the best creations the tech industry has developed for managing personal finances. They can connect to your bank account and keep track of your spending.",
+        "optionA": "Microsoft", 
+        "optionB": "Intuit",       
+        "optionC": "IBM",
+        "optionD": "Apple",
+        "answer": "optionB",
+        "points": 2
+    },
+
+    {
+        "question": "What would make a bad candidate for investing?",
+        "additionInfo": "There are many types of investments such as stocks, bonds, ETFs, mutual funds, cash equivalents, real estate, REITs and commodities. (Wealthsimple.com)",
+        "optionA": "Having an emergency fund", 
+        "optionB": "Having a stable income with extra money (after bills)",       
+        "optionC": "Having a lot of credit card debt",
+        "optionD": "Being a full time employee at a company",
+        "answer": "optionC",
+        "points": 2
+    },
+
+    {
+        "question": "When was the first computer game invented? Hint: it was called “Tennis For Two",
+        "additionInfo": "",
+        "optionA": "1958", 
+        "optionB": "1987",       
+        "optionC": "1904",
+        "optionD": "1995",
+        "answer": "optionA",
+        "points": 2
+    },
+
+    {
+        "question": "What does HTML stand for? Hint/additional info: this language is used to design website layouts",
+        "additionInfo": "",
+        "optionA": "Heavytest Media Language", 
+        "optionB": "Halo Time Music Language",       
+        "optionC": "Hightext Modification Language",
+        "optionD": "Hypertext Markup Language",
+        "answer": "optionD",
+        "points": 2
+    },
+
+    {
+        "question": "What can a debit card do/have that a credit card cannot?",
+        "additionInfo": "",
+        "optionA": "Make payments", 
+        "optionB": "Withdraw money",       
+        "optionC": "Associated with chequing account",
+        "optionD": "Redeem rewards",
+        "answer": "optionC",
+        "points": 2
+    },
+
+    {
+        "question": "Who was the first female game programmer?",
+        "additionInfo": "",
+        "optionA": "Naomi Brooks", 
+        "optionB": "Carol Shaw",       
+        "optionC": "Ada Lovelace",
+        "optionD": "Mary Jackson",
+        "answer": "optionB",
+        "points": 2
+    },
+
+    {
+        "question": "As of 2020, which is the world’s biggest tech company?",
+        "additionInfo": "",
+        "optionA": "Sonys", 
+        "optionB": "Apple",       
+        "optionC": "Microsoft",
+        "optionD": "Mary Jackson",
+        "answer": "Amazon",
+        "points": 2
+    }
+
+]
