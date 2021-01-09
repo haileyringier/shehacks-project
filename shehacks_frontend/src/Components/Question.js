@@ -16,6 +16,5 @@ export default function Question(props){
         <div className="question-block">
             {renderQuestions()}       
         </div>
-        
     )
 }

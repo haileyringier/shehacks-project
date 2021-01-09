@@ -21,9 +21,10 @@ export default class Game extends React.Component{
 render(){
     return(
         <div className="game-section">
+            <Dog />
             <Score score={this.state.score}/>
             <Question questions={this.state.questions} />
-            <Dog />
+            
         </div>
     )
 }

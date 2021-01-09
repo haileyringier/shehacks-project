@@ -4,7 +4,7 @@ export default function Dog(){
 
     return(
         <div className="dog-img">
-            <img className="dog" src={"https://images1.the-dots.com/1669923/jack-russel-looping.gif?p=projectImageFullJpg"}/>
+            <img className="dog" src={"https://media.giphy.com/media/XK8AGR6uOVmj1GKheV/giphy.gif"}/>
         </div>
     )
 }
