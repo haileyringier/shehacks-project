@@ -1,3 +1,4 @@
+import { render } from '@testing-library/react'
 import React from 'react'
 import Dog from './Dog'
 import Question from './Question'
@@ -5,12 +6,16 @@ import Score from './Score'
 
 export default function Game(){
 
-    // state = {
-    //     questions: []
-    // }
+    state = {
+        questions: []
+    }
+
+    componentDidMount(){
+
+    }
 
     //  fetch questions from backend and add to state
-
+render(){
     return(
         <div className="game-section">
             {/* style={{ 
@@ -20,4 +25,5 @@ export default function Game(){
             <Dog />
         </div>
     )
+}
 }
