@@ -1,11 +1,20 @@
 import React from 'react'
 
-export default function Question(){
+export default function Question(props){
+
+    const renderQuestions = () => props.questions.map(q => {
+        return (
+            <li>
+                <h3>{q.question}</h3>
+                <p>{q.optiona}</p>
+            </li>
+                
+        )
+    })
 
     return(
         <div className="question-block">
-            <h1>Question</h1>
-            <h2>Answers</h2>        
+            {renderQuestions()}       
         </div>
         
     )
