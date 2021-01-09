@@ -28,13 +28,16 @@ background-size: cover;
   margin-top: 15px;
   margin-left: 1150px;
   max-width: 100px;
-  /* border: 1px solid white; */
-  /* box-shadow:  0 10px 20px white; */
-
 }
 
 .score-text{
   font-size: 20px;
   padding: 3px;
   
+}
+
+.dog{
+  /* background-image: url("https://images1.the-dots.com/1669923/jack-russel-looping.gif?p=projectImageFullJpg"); */
+  max-height: 200px;
+  margin-left: 1000px;
 }
