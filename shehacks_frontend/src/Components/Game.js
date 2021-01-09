@@ -4,15 +4,15 @@ import Dog from './Dog'
 import Question from './Question'
 import Score from './Score'
 
-export default function Game(){
+export default class Game extends React.Component{
 
     state = {
         questions: []
     }
 
-    componentDidMount(){
+    // componentDidMount(){
 
-    }
+    // }
 
     //  fetch questions from backend and add to state
 render(){
