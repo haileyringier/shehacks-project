@@ -36,9 +36,9 @@
         "question": "What is true in regards to being carbon neutral?",
         "additionInfo": "",
         "optionA": "Carbon neutral means achieving net zero carbon dioxide emissions by balancing carbon dioxide emissions with removal or simply eliminating carbon dioxide emissions altogether", 
-        "optionB": "Attempting to be carbon neutral is really expensive.",       
+        "optionB": "Attempting to be carbon neutral is really expensive",       
         "optionC": "A company’s carbon footprint can be forgiven by donating large amounts to environmental groups",
-        "optionD": "Planting trees in the tropics is more cost effective and is more effective than a company going carbon neutral.",
+        "optionD": "Planting trees in the tropics is more cost effective and is more effective than a company going carbon neutral",
         "answer": "optionA",
         "points": 2
     },
@@ -156,11 +156,11 @@
     {
         "question": "As of 2020, which is the world’s biggest tech company?",
         "additionInfo": "",
-        "optionA": "Sonys", 
+        "optionA": "Sony", 
         "optionB": "Apple",       
         "optionC": "Microsoft",
-        "optionD": "Mary Jackson",
-        "answer": "Amazon",
+        "optionD": "Amazon",
+        "answer": "optionD",
         "points": 2
     }
 
