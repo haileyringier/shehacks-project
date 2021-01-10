@@ -18,7 +18,7 @@ export default class Game extends React.Component{
             .then(response => this.setState({questions: response}))
     }
 
-    nextQuestion = () => {
+    nextQuestion = (event) => {
         let newValue = this.state.currentQuestion + 1
         this.setState({currentQuestion: newValue})
     }
