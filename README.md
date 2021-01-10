@@ -14,7 +14,6 @@ Productivity Journal is a virtual journal to assist in organizing your day and i
 
 
 ## Intro Video
-[Capstone/Final Presentation on Youtube](https://www.youtube.com/channel/UCv8YpacxVgL9ShVduwb3Blg?view_as=subscriber)
 
 ## Technologies
 * React
