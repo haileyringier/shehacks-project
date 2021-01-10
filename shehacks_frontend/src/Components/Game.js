@@ -2,6 +2,7 @@ import { render } from '@testing-library/react'
 import React from 'react'
 import Dog from './Dog'
 import Question from './Question'
+import QuestionSection from './QuestionSection'
 import Score from './Score'
 
 export default class Game extends React.Component{
@@ -19,8 +20,8 @@ export default class Game extends React.Component{
     }
 
     nextQuestion = (event) => {
-        console.log(event.target.parentNode)
-        let newValue = this.state.currentQuestion
+        console.log(event.target.parentNode.value)
+        let newValue = this.state.currentQuestion + 1
         this.setState({currentQuestion: newValue})
     }
 
@@ -28,7 +29,8 @@ render(){
     return(
         <div className="game-section">
             <Score score={this.state.score}/>
-            <Question questions={this.state.questions} currentQuestion={this.state.currentQuestion} nextQuestion={this.nextQuestion}/>
+            {/* <Question questions={this.state.questions} currentQuestion={this.state.currentQuestion} nextQuestion={this.nextQuestion}/> */}
+            <QuestionSection questions={this.state.questions} currentQuestion={this.state.currentQuestion} nextQuestion={this.nextQuestion}/>
             <Dog />
         </div>
     )
