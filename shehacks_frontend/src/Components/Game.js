@@ -23,7 +23,7 @@ render(){
         <div className="game-section">
             <Dog />
             <Score score={this.state.score}/>
-            <Question questions={this.state.questions} />
+            <Question questions={this.state.questions} currentQuestion={this.state.currentQuestion} />
             
         </div>
     )
