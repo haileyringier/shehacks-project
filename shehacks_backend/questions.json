@@ -7,7 +7,8 @@
         "optionC": "28%",
         "optionD": "35%",
         "answer": "optionC",
-        "points": 1
+        "points": 1, 
+        "number": 1
     },
 
     {
@@ -18,7 +19,8 @@
         "optionC": "34%",
         "optionD": "6%",
         "answer": "optionA",
-        "points": 2
+        "points": 2,
+        "number": 2
     },
 
     {
@@ -29,18 +31,20 @@
         "optionC": "$75k",
         "optionD": "$38k",
         "answer": "optionC",
-        "points": 2
+        "points": 2,
+        "number": 3
     },
 
     {
         "question": "What is true in regards to being carbon neutral?",
         "additionInfo": "",
         "optionA": "Carbon neutral means achieving net zero carbon dioxide emissions by balancing carbon dioxide emissions with removal or simply eliminating carbon dioxide emissions altogether", 
-        "optionB": "Attempting to be carbon neutral is really expensive.",       
+        "optionB": "Attempting to be carbon neutral is really expensive",       
         "optionC": "A company’s carbon footprint can be forgiven by donating large amounts to environmental groups",
-        "optionD": "Planting trees in the tropics is more cost effective and is more effective than a company going carbon neutral.",
+        "optionD": "Planting trees in the tropics is more cost effective and is more effective than a company going carbon neutral",
         "answer": "optionA",
-        "points": 2
+        "points": 2,
+        "number": 4
     },
 
     {
@@ -51,7 +55,8 @@
         "optionC": "Urban Decay",
         "optionD": "Neutrogena",
         "answer": "optionB",
-        "points": 2
+        "points": 2,
+        "number": 5
     },
 
     {
@@ -62,7 +67,8 @@
         "optionC": "Provide scholarships and grants to further their education",
         "optionD": "All of the above",
         "answer": "optionD",
-        "points": 2
+        "points": 2,
+        "number": 6
     },
 
     {
@@ -73,7 +79,8 @@
         "optionC": "Banks place limits on the number of withdrawals allowed, which encourages saving over spending",
         "optionD": "All of the above",
         "answer": "optionD",
-        "points": 2
+        "points": 2,
+        "number": 7
     },
 
     {
@@ -84,7 +91,8 @@
         "optionC": "It is not important, spend your money on what you want",
         "optionD": "Creating a budget takes a lot of time is not worth it",
         "answer": "optionA",
-        "points": 2
+        "points": 2,
+        "number": 8
     },
 
     {
@@ -95,7 +103,8 @@
         "optionC": "IBM",
         "optionD": "Apple",
         "answer": "optionB",
-        "points": 2
+        "points": 2,
+        "number": 9
     },
 
     {
@@ -106,7 +115,8 @@
         "optionC": "Having a lot of credit card debt",
         "optionD": "Being a full time employee at a company",
         "answer": "optionC",
-        "points": 2
+        "points": 2,
+        "number": 10
     },
 
     {
@@ -117,7 +127,8 @@
         "optionC": "1904",
         "optionD": "1995",
         "answer": "optionA",
-        "points": 2
+        "points": 2,
+        "number": 11
     },
 
     {
@@ -128,7 +139,8 @@
         "optionC": "Hightext Modification Language",
         "optionD": "Hypertext Markup Language",
         "answer": "optionD",
-        "points": 2
+        "points": 2,
+        "number": 12
     },
 
     {
@@ -139,7 +151,8 @@
         "optionC": "Associated with chequing account",
         "optionD": "Redeem rewards",
         "answer": "optionC",
-        "points": 2
+        "points": 2,
+        "number": 13
     },
 
     {
@@ -150,18 +163,20 @@
         "optionC": "Ada Lovelace",
         "optionD": "Mary Jackson",
         "answer": "optionB",
-        "points": 2
+        "points": 2,
+        "number": 14
     },
 
     {
         "question": "As of 2020, which is the world’s biggest tech company?",
         "additionInfo": "",
-        "optionA": "Sonys", 
+        "optionA": "Sony", 
         "optionB": "Apple",       
         "optionC": "Microsoft",
-        "optionD": "Mary Jackson",
-        "answer": "Amazon",
-        "points": 2
+        "optionD": "Amazon",
+        "answer": "optionD",
+        "points": 2,
+        "number": 15
     }
 
 ]

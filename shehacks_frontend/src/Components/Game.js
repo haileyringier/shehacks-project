@@ -7,21 +7,22 @@ import Score from './Score'
 export default class Game extends React.Component{
 
     state = {
-        questions: []
+        questions: [],
+        score: 0,
+        currentQuestion: 1
     }
 
-    // componentDidMount(){
+    componentDidMount(){
+        fetch("http://localhost:3001/questions")
+            .then(response => response.json())
+            .then(response => this.setState({questions: response}))
+    }
 
-    // }
-
-    //  fetch questions from backend and add to state
 render(){
     return(
         <div className="game-section">
-            {/* style={{ 
-            backgroundImage: `url("https://t3.ftcdn.net/jpg/02/79/76/96/360_F_279769688_3IWMhbzatTh4QnEZCWsd5HhiLFXI9Aj2.jpg")`}}> */}
-            <Score />
-            <Question />
+            <Score score={this.state.score}/>
+            <Question questions={this.state.questions} currentQuestion={this.state.currentQuestion}/>
             <Dog />
         </div>
     )

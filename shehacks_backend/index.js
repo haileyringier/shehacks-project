@@ -8,8 +8,8 @@ var questionsJson = require("../shehacks_backend/questions.json");
 app.use(cors());
 
 
-app.get('/', (req, res) => {
-    res.json(questionsJson[0]);
+app.get('/questions', (req, res) => {
+    res.json(questionsJson);
 })
 
 const port = process.env.PORT || 3001;

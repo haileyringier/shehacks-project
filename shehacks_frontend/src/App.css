@@ -41,3 +41,13 @@ background-size: cover;
   max-height: 200px;
   margin-left: 1000px;
 }
+
+li{
+  list-style: none;
+}
+
+.question-option{
+  display: flex;
+  flex-direction: row;
+ 
+}
