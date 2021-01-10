@@ -10,7 +10,6 @@ export default class Game extends React.Component{
         questions: [],
         score: 0,
         currentQuestion: 1,
-        correct: false
     }
 
     componentDidMount(){
@@ -24,6 +23,8 @@ export default class Game extends React.Component{
         const optionChosen = event.target.innerHTML.charAt(0);
         if (question.answer.includes(optionChosen)) {
             alert("correct")
+            let newScore = this.state.score + 10
+            this.setState({score: newScore})
         }
         let newValue = this.state.currentQuestion + 1
         this.setState({currentQuestion: newValue})
