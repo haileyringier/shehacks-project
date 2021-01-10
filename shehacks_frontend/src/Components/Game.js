@@ -9,7 +9,7 @@ export default class Game extends React.Component{
     state = {
         questions: [],
         score: 0,
-        currentQuestion: 0
+        currentQuestion: 1
     }
 
     componentDidMount(){
@@ -22,7 +22,7 @@ render(){
     return(
         <div className="game-section">
             <Score score={this.state.score}/>
-            <Question questions={this.state.questions} />
+            <Question questions={this.state.questions} currentQuestion={this.state.currentQuestion}/>
             <Dog />
         </div>
     )

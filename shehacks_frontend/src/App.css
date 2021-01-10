@@ -45,3 +45,9 @@ background-size: cover;
 li{
   list-style: none;
 }
+
+.question-option{
+  display: flex;
+  flex-direction: row;
+ 
+}
