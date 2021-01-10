@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Life Lessons from Neighbors
+> SheHacks V project submission
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
+* [General info](#general-info)
+* [Intro Video](#intro-video)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Features](#features)
+* [Contact](#contact)
 
-## Available Scripts
+## General info
+Productivity Journal is a virtual journal to assist in organizing your day and increasing your productivity. On the dashboard a user has an overview of their upcoming events, their daily goals and a visual representation of the habits they are tracking. A user can add and delete tasks, view their events in a monely and daily calendar, review all of their journal entries in chronological order and can updated the status of the habits they are tracking.  
 
-In the project directory, you can run:
 
-### `yarn start`
+## Intro Video
+[Capstone/Final Presentation on Youtube](https://www.youtube.com/channel/UCv8YpacxVgL9ShVduwb3Blg?view_as=subscriber)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies
+* React
+* HTML5
+* CSS
+* JavaScript
+* Node
+* Express
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Setup
+1. Once you fork and clone the repo, you will need to open another tab in your terminal(one for the front and one for the back).
+1. Now in the terminal of the backend directory, run:
+    $ npm install
+    $ node index.js
+    $ if your terminal says you are connected you are ready to move onto the next step.
+1. Now in the terminal of the frontend directory, run:
+    $ npm install
+    $ npm start
+    $ your browser should open and the game begins. 
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
+* Multiple choice game asking question regard personal finance, women in the tech industry and the environment
+*
 
-### `yarn build`
+## Status
+Next steps: Add the functionality of walking through the neighborhood and meeting m=neighbor who offer a piece of advice, then the corresponding question pops up. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contact
+Created by [Hailey Ringier](https://www.linkedin.com/in/hailey-ringier/) 
+Nika 
+Joanne 
+Boma
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Feel free to contact me! 
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
