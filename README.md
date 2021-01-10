@@ -10,7 +10,7 @@
 * [Contact](#contact)
 
 ## General info
-Productivity Journal is a virtual journal to assist in organizing your day and increasing your productivity. On the dashboard a user has an overview of their upcoming events, their daily goals and a visual representation of the habits they are tracking. A user can add and delete tasks, view their events in a monely and daily calendar, review all of their journal entries in chronological order and can updated the status of the habits they are tracking.  
+On a walk through her neighborhood a teenage girl encounters neighbors along the way that each teach her important lessons about personal finance, the tech industry, and the environment. As she answers their questions about life she gains points.  
 
 
 ## Intro Video
