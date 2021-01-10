@@ -173,16 +173,10 @@
         "optionA": "Sony", 
         "optionB": "Apple",       
         "optionC": "Microsoft",
-<<<<<<< HEAD
-        "optionD": "Amazon",
-        "answer": "optionD",
-        "points": 2
-=======
         "optionD": "Mary Jackson",
-        "answer": "Amazon",
+        "answer": "optionD",
         "points": 2,
         "number": 15
->>>>>>> 2267b6f114be324fd7c5427781d7a74ff76858fa
     }
 
 ]
