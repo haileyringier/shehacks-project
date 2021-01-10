@@ -18,11 +18,17 @@ export default class Game extends React.Component{
             .then(response => this.setState({questions: response}))
     }
 
+    nextQuestion = (event) => {
+        console.log(event.target.parentNode)
+        let newValue = this.state.currentQuestion
+        this.setState({currentQuestion: newValue})
+    }
+
 render(){
     return(
         <div className="game-section">
             <Score score={this.state.score}/>
-            <Question questions={this.state.questions} currentQuestion={this.state.currentQuestion}/>
+            <Question questions={this.state.questions} currentQuestion={this.state.currentQuestion} nextQuestion={this.nextQuestion}/>
             <Dog />
         </div>
     )
