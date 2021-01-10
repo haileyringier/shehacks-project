@@ -9,7 +9,8 @@ export default class Game extends React.Component{
     state = {
         questions: [],
         score: 0,
-        currentQuestion: 1
+        currentQuestion: 1,
+        correct: false
     }
 
     componentDidMount(){
@@ -18,7 +19,12 @@ export default class Game extends React.Component{
             .then(response => this.setState({questions: response}))
     }
 
-    nextQuestion = () => {
+    nextQuestion = (event) => {
+        const question = this.state.questions[this.state.currentQuestion - 1];
+        const optionChosen = event.target.innerHTML.charAt(0);
+        if (question.answer.includes(optionChosen)) {
+            alert("correct")
+        }
         let newValue = this.state.currentQuestion + 1
         this.setState({currentQuestion: newValue})
     }
